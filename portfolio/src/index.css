@@ -3,3 +3,9 @@
   height: 80px;
   border-radius: 50%;
 }
+.socials{
+  height: 40px;
+  border-radius: 30%;
+  padding: 1rem;
+  margin-left: 2.5rem;
+}
