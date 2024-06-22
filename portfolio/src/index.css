@@ -20,6 +20,14 @@ text-decoration: none;
 --container-width-md: 86%;
 --container-width-ms:90%;
 }
+ul{
+  padding: 15px;
+}
+.icons{
+  height: 20px;
+  margin-bottom: -4px;
+  margin-right: 1rem;
+}
 .profilePicture{
 
   height: 80px;
@@ -56,5 +64,21 @@ html{
 
 ::-webkit-scrollbar{
   display:none;
+
+}
+.links{
+display: flex;
+align-items: center;
+gap:0 20px;
+font-weight: 500;
+white-space: nowrap;
+text-decoration: none;
+
+}
+.links:hover{
+background: rgb(10, 6, 17);
+color: #fff;
+border-radius:  4px;
+
 
 }
