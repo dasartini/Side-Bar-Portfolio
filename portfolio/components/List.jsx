@@ -5,16 +5,16 @@ function List(){
         <div>
         <ol>
     <ul>
-   <Link to={'./Biography'}> <p>Biograhy </p></Link>
+   <Link to={'./Biography'}> <p className="links"> <img className="icons" src="./src/assets/profile.svg" />Biography </p ></Link>
     </ul>
     <ul>
-    <p>Work experience </p>
+    <p className="links"><img className="icons" src="./src/assets/work.svg" />Experience </p >
     </ul>
     <ul>
-    <p>Projects </p>
+    <p className="links"><img className="icons" src="./src/assets/project.svg" />Projects </p>
     </ul>
     <ul>
-    <p> Hobbies </p>
+    <p className="links"><img className="icons" src="./src/assets/hobbies.svg" /> Hobbies </p>
     </ul>
 
         </ol>
