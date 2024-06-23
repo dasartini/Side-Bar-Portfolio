@@ -13,7 +13,7 @@ function App() {
 
   <Route path='/Biography' element={<Biograhy/>}/>
     </Routes>
-    </div>
+    </div> 
   )
 }
 

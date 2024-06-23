@@ -4,12 +4,12 @@ import SideBar from "../assets/SideBar"
 function Sidebar (){
 
 return(
-    <SideBar>
 <aside>
+    <SideBar>
     <Profile/>
 <List/>
-</aside>
 </SideBar>
+</aside>
 
 )
 
