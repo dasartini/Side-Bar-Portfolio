@@ -59,8 +59,8 @@ function List() {
                     {list && (
                         <ul className="list">
                            <Link  className="Link" to={'./NCtimes'}><li>NC TIMES</li></Link> 
-                            <li>GIG'S TINDER</li>
-                            <li>GIFS FINDER</li>
+                          <li>GIG'S TINDER</li>
+                           <Link className="Link" to={'/gifs'}>  <li>GIFS FINDER</li></Link>
                         </ul>
                     )}
                 </ul>
