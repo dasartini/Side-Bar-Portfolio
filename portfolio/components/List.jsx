@@ -58,8 +58,8 @@ function List() {
                     </span>
                     {list && (
                         <ul className="list">
-                           <Link  className="Link" to={'./NCtimes'}><li>NC TIMES</li></Link> 
-                          <li>GIG'S TINDER</li>
+                           <Link  className="Link" to={'/nctimes'}><li>NC TIMES</li></Link> 
+                          <Link className="Link" to={'/gigtastic'}><li>GIG'S TINDER</li></Link>
                            <Link className="Link" to={'/gifs'}>  <li>GIFS FINDER</li></Link>
                         </ul>
                     )}

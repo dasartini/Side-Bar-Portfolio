@@ -3,6 +3,7 @@
   }
   
   .cardStyle {
+    
     border-radius: 20px;
     background: #4d4a4a;
     background: radial-gradient(#050414, #1b033ba2);
@@ -10,7 +11,7 @@
     color: rgba(250, 250, 250, 0.8);
     margin-left: 10rem;
     margin-right: 5rem;
-    padding: 1rem; 
+    padding: 3rem; 
     transition: box-shadow 0.3s ease;
     text-align: center;
     color: #fff;
@@ -33,4 +34,31 @@
   .external:hover {
     color: #dd2476; 
   }
-  
+
+.cardStyle p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.cardStyle li {
+  border-radius: 20px;
+  background: radial-gradient(#1b1b1b, #333);
+  border: 1px solid #dd2476;
+  color: rgba(250, 250, 250, 0.9);
+  padding: 0.5rem;
+  transition: box-shadow 0.3s ease;
+  max-width: 800px;
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+.cardStyle li p {
+    display: flex;
+    align-items: center;
+}
+
+.swipperCardStyle li p::before {
+    content: "👉";
+    margin-right: 0.5rem;
+}
