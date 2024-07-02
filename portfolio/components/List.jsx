@@ -12,6 +12,12 @@ function List() {
     }
 
     useEffect(() => {
+        const listItems = document.querySelectorAll('.cardStyle');
+        listItems.forEach((item, index) => {
+          item.style.setProperty('--animation-order', index);
+        });
+      }, []);
+    useEffect(() => {
         const sidebar = document.querySelector('.sidebar')
 
         function handleMouseEnter() {

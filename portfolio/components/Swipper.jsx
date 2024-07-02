@@ -1,7 +1,12 @@
 import CardStyle from "../styles/CardStyle";
-
+import { useEffect } from "react";
 function Swipper(){
-
+    useEffect(() => {
+        const listItems = document.querySelectorAll('.cardStyle li');
+        listItems.forEach((item, index) => {
+          item.style.setProperty('--animation-order', index + 1);
+        });
+      }, []);
     return(
         <CardStyle>
 <div className="swipperCardStyle">
