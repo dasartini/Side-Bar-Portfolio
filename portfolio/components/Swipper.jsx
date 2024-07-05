@@ -1,5 +1,6 @@
 import CardStyle from "../styles/CardStyle";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 function Swipper(){
     useEffect(() => {
         const listItems = document.querySelectorAll('.cardStyle li');
@@ -33,6 +34,7 @@ function Swipper(){
         You can also create your username and password, and it will save your
         events after logging out and logging in again.
       </p>
+      <img alt="Gigtastic demo" className="cardImage2" title='gigtastic' src={'../src/assets/gigtastic.gif'}/>
       <p>All this is possible because of the use of:</p>
       <ul>
         <li>
@@ -74,6 +76,7 @@ function Swipper(){
           </p>
         </li>
       </ul>
+      <p>Note: this project is not hosted yet, but here it is a <Link to={'https://www.youtube.com/watch?v=7lbObNKKIuU'}target="_blank">VIDEO</Link> demostration</p>
     </div>
 </CardStyle>
 

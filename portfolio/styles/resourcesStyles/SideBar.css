@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     background: #161a2d;
     padding: 25px 20px;
-    transition: all 0.4s ease;
+    transition: all 0.3s ease;
   }
   
   .sidebar:hover {

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import CardStyle from "../styles/CardStyle"
+import Button from "../styles/Button"
 function NCTimes(){
 
     return (<div>
@@ -15,8 +16,9 @@ function NCTimes(){
             If you want to try it out try loging in with the username  of: grumpy19
             Note: This is hosted in a free instance using render and netlify so it may take a few minutes to fetch the data
         </p>
-        <Link to={'https://bohemianrapsodyjournal.netlify.app/'} className="external"target="_blank"> Try It!</Link>
-        <img className="cardImage"title="All articles" src={'../src/assets/nctimes.gif'}/>
+        <Button>
+        <Link to={'https://bohemianrapsodyjournal.netlify.app/'} className="external"target="_blank"> Try It!</Link></Button>
+        <img alt="NC Times demo" className="cardImage"title="All articles" src={'../src/assets/nctimes.gif'}/>
         </CardStyle>
         </div>
     )
