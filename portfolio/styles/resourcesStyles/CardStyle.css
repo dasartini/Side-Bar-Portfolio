@@ -29,8 +29,8 @@
   margin-top: 3rem;
   margin-bottom: 3rem;
   opacity: 0; 
-  animation: fadeInUp 0.6s forwards;
-  animation-delay: calc(0.5s * var(--animation-order));
+  animation: fadeInUp 0.3s forwards;
+  animation-delay: calc(0.3s * var(--animation-order));
 }
 
 .cardImage {
@@ -42,6 +42,12 @@
   border-radius: 20px;
 
   height: auto;
+}
+.cardImageAd{
+  margin-top: 2rem;
+  border-radius: 30px;
+  width: 35rem;
+  margin-bottom: 2rem;
 }
 .external {
   color: #fff;

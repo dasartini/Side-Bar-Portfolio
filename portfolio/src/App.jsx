@@ -6,16 +6,19 @@ import Biograhy from '../components/Biography'
 import NCTimes from '../components/NCTimes'
 import Gifs from '../components/Gifs'
 import Swipper from '../components/Swipper'
+import Experience from '../components/Experience'
 function App() {
 
   return (
     <div>
       <Sidebar />
       <Routes>
+      <Route path={'/'} element={<Biograhy />} />
         <Route path={'/biography'} element={<Biograhy />} />
         <Route path={'/gifs'} element={<Gifs />} />
         <Route path={'/gigtastic'} element={<Swipper />} />
         <Route path={'/nctimes'} element={<NCTimes />} />
+        <Route path={'/experience'} element={<Experience/>}/>
       </Routes>
     </div>
   )
