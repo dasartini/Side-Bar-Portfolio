@@ -1,4 +1,4 @@
-function Biograhy(){
+function Skills(){
 return(
     
 <div>
@@ -8,4 +8,4 @@ return(
 
 }
 
-export default Biograhy
+export default Skills
