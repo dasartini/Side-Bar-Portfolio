@@ -55,7 +55,7 @@ function List() {
                         Experience
                     </p>
                 </ul>
-                <ul>
+                <ul><Link className="external">
                     <span onClick={handleClick}>
                         <p className="links">
                             <img className="icons" src="./src/assets/project.svg" alt="Projects" />
@@ -65,10 +65,11 @@ function List() {
                     {list && (
                         <ul className="list">
                            <Link  className="Link" to={'/nctimes'}><li>NC TIMES</li></Link> 
-                          <Link className="Link" to={'/gigtastic'}><li>GIG'S TINDER</li></Link>
+                          <Link className="Link" to={'/gigtastic'}><li>GIGS TINDER</li></Link>
                            <Link className="Link" to={'/gifs'}>  <li>GIFS FINDER</li></Link>
                         </ul>
                     )}
+                    </Link>
                 </ul>
                 <ul>
                     <p className="links">

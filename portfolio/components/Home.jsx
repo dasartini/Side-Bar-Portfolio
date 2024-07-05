@@ -1,8 +1,0 @@
-function Home(){
-
-    return(
-<p> EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEESSSSSSSSSSSSSSSSSEBTUAKKY</p>        
-    )
-
-}
-export default Home

@@ -6,6 +6,7 @@
 body {
     min-height: 100vh;
     background: #F0F4FF;
+    overflow-x: hidden; 
   }
   
   .sidebar {
@@ -20,9 +21,11 @@ body {
     background: #161a2d;
     padding: 25px 20px;
     transition: all 0.3s ease;
+    z-index: 1000;
   }
   
   .sidebar:hover {
+    
     width: 260px;
   }
   
