@@ -10,6 +10,7 @@ function Swipper(){
       }, []);
     return(
         <CardStyle>
+             <h1>GIGTASTIC</h1><br/>
 <div className="swipperCardStyle">
       <p>This is one of the most ambitious projects I worked on</p>
       <br />

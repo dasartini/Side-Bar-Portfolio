@@ -5,6 +5,7 @@ function NCTimes(){
 
     return (<div>
         <CardStyle>
+            <h1>The mythical NC TIMES</h1><br/>
         <p>NC Times is two projects in one:</p>
         <p>Backend: seeded API using SQL queries to create databases containing different articles.
             In this data we can find usernames, comments, articles, kudos.

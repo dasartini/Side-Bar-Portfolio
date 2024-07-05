@@ -42,7 +42,7 @@ function List() {
         <div>
             <ol>
                 <ul>
-                    <Link className="Link" to={'./Biography'}>
+                    <Link className="Link" to={'./biography'}>
                         <p className="links">
                             <img className="icons" src="./src/assets/profile.svg" alt="Profile" />
                             Biography
@@ -50,10 +50,12 @@ function List() {
                     </Link>
                 </ul>
                 <ul>
+                    <Link className="external" to={'/experience'}>
                     <p className="links">
                         <img className="icons" src="./src/assets/work.svg" alt="Experience" />
                         Experience
                     </p>
+                    </Link>
                 </ul>
                 <ul><Link className="external">
                     <span onClick={handleClick}>

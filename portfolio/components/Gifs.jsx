@@ -6,6 +6,7 @@ function Gifs(){
     return(
         <CardStyle>
 <div>
+<h1>Fantastic Gifs</h1><br/>
             <p> An basic React app, this was a bootcamp excercise, the objective of it is learning the use of forms, styling and fetching data from an external API.
                 This is a search bar that fetches data form GIPHY API and displays the gifs that you type.
             </p>
