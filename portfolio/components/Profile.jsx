@@ -9,7 +9,7 @@ function Profile(){
 return(
 <div>
     <img 
-    className="profilePicture" src='../src/assets/me.jpg' />
+    className="profilePicture" src='../src/assets/me3.jpg' />
     <div hidden={visible}
     >
 <h2> Adrian Sartini</h2>

@@ -44,7 +44,7 @@ function List() {
                 <ul>
                     <Link className="Link" to={'./biography'}>
                         <p className="links">
-                            <img className="icons" src="./src/assets/profile.svg" alt="Profile" />
+                            <img className="icons" src="./src/assets/profile.svg"  />
                             Biography
                         </p>
                     </Link>
@@ -52,7 +52,7 @@ function List() {
                 <ul>
                     <Link className="external" to={'/experience'}>
                     <p className="links">
-                        <img className="icons" src="./src/assets/work.svg" alt="Experience" />
+                        <img className="icons" src="./src/assets/work.svg" />
                         Experience
                     </p>
                     </Link>
@@ -60,7 +60,7 @@ function List() {
                 <ul><Link className="external">
                     <span onClick={handleClick}>
                         <p className="links">
-                            <img className="icons" src="./src/assets/project.svg" alt="Projects" />
+                            <img className="icons" src="./src/assets/project.svg"/>
                             Projects
                         </p>
                     </span>
@@ -76,8 +76,16 @@ function List() {
                 <ul>
                     <Link className="external" to={'/hobbies'}>
                     <p className="links">
-                        <img className="icons" src="./src/assets/hobbies.svg" alt="Hobbies" />
+                        <img className="icons" src="./src/assets/hobbies.svg"  />
                         Hobbies
+                    </p>
+                    </Link>
+                </ul>
+                <ul>
+                    <Link className="external" to={'/contact'}>
+                    <p className="links">
+                        <img className="icons" src="./src/assets/contact.svg" />
+                       Let's contact
                     </p>
                     </Link>
                 </ul>

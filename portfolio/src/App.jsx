@@ -8,6 +8,7 @@ import Gifs from '../components/Gifs'
 import Swipper from '../components/Swipper'
 import Experience from '../components/Experience'
 import Hobbies from '../components/Hobbies'
+import Contact from '../components/Contact'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <Route path={'/gigtastic'} element={<Swipper />} />
         <Route path={'/nctimes'} element={<NCTimes />} />
         <Route path={'/hobbies'} element={<Hobbies/>}/>
+        <Route path={'/contact'} element={<Contact/>}/>
         
 
        
