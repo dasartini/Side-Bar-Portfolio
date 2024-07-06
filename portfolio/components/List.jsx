@@ -67,17 +67,19 @@ function List() {
                     {list && (
                         <ul className="list">
                            <Link  className="Link" to={'/nctimes'}><li>NC TIMES</li></Link> 
-                          <Link className="Link" to={'/gigtastic'}><li>GIGS TINDER</li></Link>
+                          <Link className="Link" to={'/gigtastic'}><li><img className="iconFire" src="./src/assets/hot.png"/>GIGS TINDER<img className="icons" src="./src/assets/hot.png"/></li></Link>
                            <Link className="Link" to={'/gifs'}>  <li>GIFS FINDER</li></Link>
                         </ul>
                     )}
                     </Link>
                 </ul>
                 <ul>
+                    <Link className="external" to={'/hobbies'}>
                     <p className="links">
                         <img className="icons" src="./src/assets/hobbies.svg" alt="Hobbies" />
                         Hobbies
                     </p>
+                    </Link>
                 </ul>
             </ol>
         </div>
