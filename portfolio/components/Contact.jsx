@@ -27,6 +27,7 @@ function Contact() {
                             <li>React</li>
                             <li>Node</li>
                             <li>Firebase</li>
+                            <li>SQL</li>
 
                         </ul>
                     </div>
