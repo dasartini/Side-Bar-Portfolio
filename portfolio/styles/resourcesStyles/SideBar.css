@@ -104,7 +104,18 @@ body {
     margin-bottom: -4px;
     margin-left: -21.5px;
     }
-  
+    .iconRepo{  
+      height: 35px;
+margin-bottom: 10px ;
+padding: 1px;
+      }
+
+  .projectButtons{
+    display: flex;
+    align-items: center;
+
+
+  }
   .socials{
     height: 40px;
     border-radius: 30%;

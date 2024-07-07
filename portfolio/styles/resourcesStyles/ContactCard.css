@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+
 * {
     box-sizing: border-box;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 body {
@@ -40,7 +51,9 @@ p {
     width: 350px;
     max-width: 100%;
     text-align: center;
-    margin-bottom: 30px;}
+    margin-bottom: 30px;
+    animation: fadeIn 1s ease-in-out
+}
 
 .card-container .junior {
     color: #231E39;
@@ -60,9 +73,9 @@ p {
     border-radius: 50%;
     padding: 7px;
     margin-top: 20px;
-    width: 150px; /* Ensure width and height are equal */
+    width: 150px; 
     height: 150px;
-    object-fit: cover; /* Ensure the image covers the circle area */
+    object-fit: cover; 
 }
 
 
