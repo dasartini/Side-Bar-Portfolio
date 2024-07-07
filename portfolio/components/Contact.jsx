@@ -1,5 +1,5 @@
 import ContactCard from "../styles/ContactCard";
-
+import me from '../src/assets/me.jpg'
 
 function Contact() {
     return (
@@ -7,7 +7,7 @@ function Contact() {
             <div>
                 <div className="card-container">
                     <span className="junior">Junior</span>
-                    <img className="profilePictureRound" src="../src/assets/me.jpg" alt="user" />
+                    <img className="profilePictureRound" src={me} alt="Me" />
                     <h3>Adrian Sartini</h3>
                     <h6>Manchester</h6>
                     <p>Full Stack Software Engineer</p>
