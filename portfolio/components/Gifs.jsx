@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import CardStyle from "../styles/CardStyle";
 import Button from "../styles/Button";
+import gifs from '../src/assets/gifs.gif'
 
 function Gifs() {
     return (
@@ -14,7 +15,7 @@ function Gifs() {
                 <Button>
                     <Link className="external" to={'https://giphysearchbar.netlify.app/'} target="_blank">TRY IT</Link>
                 </Button>
-                <img alt="Amazing Gifs demo" className="cardImage" title="Amazing gifs" src={'../src/assets/gifs.gif'} />
+                <img alt="Amazing Gifs demo" className="cardImage" title="Amazing gifs" src={gifs} />
             </div>
         </CardStyle>
     );

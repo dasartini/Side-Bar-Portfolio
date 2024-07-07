@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import CardStyle from "../styles/CardStyle";
 import Button from "../styles/Button";
+import nctimes from '../src/assets/nctimes.gif'
 
 function NCTimes() {
     return (
@@ -20,7 +21,7 @@ function NCTimes() {
                         Try It!
                     </Link>
                 </Button>
-                <img alt="NC Times demo" className="cardImage" title="All articles" src={'../src/assets/nctimes.gif'} />
+                <img alt="NC Times demo" className="cardImage" title="All articles" src={nctimes} />
             </CardStyle>
         </div>
     );

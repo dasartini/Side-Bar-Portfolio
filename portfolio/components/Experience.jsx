@@ -1,11 +1,12 @@
 import CardStyle from "../styles/CardStyle"
 import Skills from "./Skills"
+import adrian2 from '../src/assets/adrian2.jpeg'
 
 function Experience() {
     return (
         <CardStyle>
             <h1>Coding Experience</h1><br />
-            <img title="Showing project idea" className="cardImageAd" src="../src/assets/adrian2.jpeg" alt="Adrian presenting a project" />
+            <img title="Showing project idea" className="cardImageAd" src={adrian2} alt="Adrian presenting a project" />
             <div>
                 <p>After attending and successfully completing a software engineering bootcamp, I learned full-stack programming and gained experience in the following:</p>
                 <ul>
