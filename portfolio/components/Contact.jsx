@@ -1,8 +1,9 @@
 import ContactCard from "../styles/ContactCard";
-import me from '../src/assets/me.jpg'
+import me from '../src/assets/me.jpg';
 
 function Contact() {
     return (
+
         <ContactCard>
             <div>
                 <div className="card-container">
@@ -35,6 +36,7 @@ function Contact() {
 
             </div>
         </ContactCard>
+
     );
 }
 

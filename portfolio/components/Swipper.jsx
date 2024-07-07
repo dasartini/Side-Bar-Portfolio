@@ -2,6 +2,9 @@ import CardStyle from "../styles/CardStyle";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import gigtastic from '../src/assets/gigtastic.gif'
+import repo from '../src/assets/repo.svg'
+
+
 
 function Swipper() {
     useEffect(() => {
@@ -32,9 +35,13 @@ function Swipper() {
                 <p>
                     You can also create a username and password, and the app will save your events after logging out and logging back in.
                 </p>
+
                 <img alt="Gigtastic demo" className="cardImage2" title='gigtastic' src={gigtastic} />
-                <br/>
-                <br/>
+                <br />
+                <Link to={'https://github.com/dasartini/gig-swiper'} >
+                    <img className="iconRepo" title="Repo" src={repo} />
+                </Link>
+                <br />
                 <p>All this is possible due to the use of:</p>
                 <ul>
                     <li>
