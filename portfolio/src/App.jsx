@@ -9,6 +9,7 @@ import Swipper from '../components/Swipper'
 import Experience from '../components/Experience'
 import Hobbies from '../components/Hobbies'
 import Contact from '../components/Contact'
+import ErrorPage from '../components/ErrorPage'
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
         <Route path={'/nctimes'} element={<NCTimes />} />
         <Route path={'/hobbies'} element={<Hobbies/>}/>
         <Route path={'/contact'} element={<Contact/>}/>
-        
+        <Route path="*" element={<ErrorPage/>} />
 
        
       </Routes>
