@@ -131,3 +131,37 @@ p {
     padding: 7px;
     color: #B3B8CD; 
 }
+
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .card-container {
+        
+    margin-left: 15rem;
+    margin-right: 10rem;
+    }
+
+    .card-container .profilePictureRound {
+        width: 120px;
+        height: 120px;
+
+    }
+
+    .buttons li.primary, 
+    .buttons li.secondary {
+        padding: 8px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 12px;
+    }
+
+    .skills {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .skills ul{
+        margin-left:20px
+    }
+
+       }
+
+

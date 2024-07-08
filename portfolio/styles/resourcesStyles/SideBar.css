@@ -111,8 +111,9 @@ padding: 1px;
       }
 
   .projectButtons{
-    display: flex;
+
     align-items: center;
+    margin: 0 auto;
 
 
   }
@@ -125,3 +126,5 @@ padding: 1px;
   .Link{
     color: #F0F4FF
   }
+
+
