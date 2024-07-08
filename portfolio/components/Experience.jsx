@@ -11,7 +11,9 @@ function Experience() {
                 <img title="Showing project idea" className="cardImageAd" src={adrian2} alt="Adrian presenting a project" />
             </Animation>
             <div>
+                <div className="responsiveness">
                 <p>After attending and successfully completing a software engineering bootcamp, I learned full-stack programming and gained experience in the following:</p>
+               </div>
                 <ul>
                     <li>
                         <p>Database creation.</p>

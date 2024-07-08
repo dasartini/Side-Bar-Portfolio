@@ -16,10 +16,10 @@ function Gifs() {
                     The search bar fetches data from the GIPHY API and displays the gifs based on the search query.
                 </p>
                 <div className="projectButtons">
+                    <Link to={'https://github.com/dasartini/fe-react-data-visualisation'} target="_blank" >
                     <Button>
                         <Link className="external" to={'https://giphysearchbar.netlify.app/'} target="_blank">TRY IT</Link>
                     </Button>
-                    <Link to={'https://github.com/dasartini/fe-react-data-visualisation'} >
                         <img className="iconRepo" title="Repo" src={repo} />
                     </Link>
                 </div>

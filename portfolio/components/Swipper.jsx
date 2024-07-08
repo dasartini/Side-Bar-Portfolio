@@ -16,8 +16,10 @@ function Swipper() {
 
     return (
         <CardStyle>
+         
             <h1>GIGTASTIC</h1><br />
-            <div className="swipperCardStyle">
+           
+            <div className="responsiveness">
                 <p>This is one of the most ambitious projects I have worked on.</p>
                 <br />
                 <p>
@@ -43,6 +45,7 @@ function Swipper() {
                 </Link>
                 <br />
                 <p>All this is possible due to the use of:</p>
+                </div>
                 <ul>
                     <li>
                         <p>
@@ -75,8 +78,9 @@ function Swipper() {
                         </p>
                     </li>
                 </ul>
+                <div className="responsiveness">
                 <p>Note: This project is not hosted yet, but here is a <Link to={'https://www.youtube.com/watch?v=7lbObNKKIuU'} target="_blank">video</Link> demonstration.</p>
-            </div>
+                </div>
         </CardStyle>
     );
 }
