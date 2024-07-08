@@ -26,10 +26,10 @@ function NCTimes() {
                             Try It!
                     </Button>
                         </Link>
-                    <Link to={'https://github.com/dasartini/project-NC-News' } target="_blank">
+                    <Link to={'https://github.com/dasartini/nc-times'} target="_blank">
                         <img className="iconRepo" title="Front-end repo" src={repo} />
                     </Link>
-                    <Link to={'https://github.com/dasartini/nc-times'} target="_blank" >
+                    <Link to={'https://github.com/dasartini/project-NC-News' } target="_blank" >
                         <img className="iconRepo" title="Back-end repo" src={repo2} />
                     </Link>
 
