@@ -19,10 +19,10 @@ function Experience() {
                         <p>Database creation.</p>
                     </li>
                     <li>
-                        <p>Seeding, hosting, and migration of APIs.</p>
+                        <p>Seeding, hosting, and migration of REST APIs.</p>
                     </li>
                     <li>
-                        <p>Creating and hosting different apps that can be displayed on desktop/mobile.</p>
+                        <p>Creating and hosting different responsive apps that can be displayed on desktop/mobile.</p>
                     </li>
                     <li>
                         <p>Actively participating in projects utilizing AGILE principles (SCRUM).</p>

@@ -9,8 +9,9 @@ function Skills() {
                         <h4>Back-end</h4>
                         <ul>
                             <ol><p>✅ JavaScript with Node.js</p></ol>
+                            <ol><p>✅ TypeScript</p></ol>
                             <ol><p>✅ SQL and PSQL</p></ol>
-                            <ol><p>✅Te sting Jest, Supertest with the use of Husky</p></ol>
+                            <ol><p>✅Testing Jest, Supertest using Husky</p></ol>
                             <ol><p>✅ Firebase (as database and auth)</p></ol>
                         </ul>
                     </div>

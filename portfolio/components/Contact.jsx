@@ -24,11 +24,15 @@ function Contact() {
                             <li>Front End</li>
                             <li>HTML</li>
                             <li>CSS</li>
+                            <li>Typescript</li>
+                            <li>Linux</li>
                             <li>JavaScript</li>
                             <li>React</li>
                             <li>Node</li>
+                            <li>Git</li>
+                            <li>GitHub</li>
                             <li>Firebase</li>
-                            <li>SQL</li>
+                            <li>SQL/PSQL</li>
 
                         </ul>
                     </div>
