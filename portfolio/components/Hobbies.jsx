@@ -7,7 +7,7 @@ function Hobbies() {
     return (
         <CardStyle>
             <div> 
-                <div className="responsiveness3">
+                <div className='cardStyle'>
                 <h1>Hobbies</h1><br />
                 <p>Fitness is important to me; I train in the gym and love riding my bicycle, exploring urban areas, and playing various sports.</p>
                 <p>Travelling is one of my passions. Numerous countries in the Americas and Europe have enriched my life, offering unique cultural experiences, whether traveling solo or with my family.</p>

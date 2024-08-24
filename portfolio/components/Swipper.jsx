@@ -16,6 +16,7 @@ function Swipper() {
 
     return (
         <CardStyle>
+            <div className="cardStyle">
          
             <h1>GIGTASTIC</h1><br />
            
@@ -80,6 +81,7 @@ function Swipper() {
                 </ul>
                 <div className="responsiveness">
                 <p>Note: This project is not hosted yet, but here is a <Link to={'https://www.youtube.com/watch?v=7lbObNKKIuU'} target="_blank">video</Link> demonstration.</p>
+                </div>
                 </div>
         </CardStyle>
     );

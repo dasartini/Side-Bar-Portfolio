@@ -37,7 +37,6 @@
   
   .card ul {
     list-style-type: none;
-    padding: 0;
   }
   
   .card ul li {
@@ -72,17 +71,16 @@
 
   @media (max-width: 700px) {
     .card{
-      margin-left: 3rem;
-      width: 300px;
-      padding: 10px;
+      margin-left: 1.5rem;
+      width: 200px;
     }
     .card.frontend{
-      margin-left: 0.55rem;
-      width:300px;
+      
+      width:200px;
       padding: 10px;
     }
     .skillsContainer {
-      padding: rem;
+     
       margin-top: 1rem;
       gap: 10px;
     }
@@ -92,15 +90,12 @@
       gap: 10px;
     }
   
- 
-  
+
     .card h4 {
       margin-left:50% auto;
       margin-right:50% auto;
       margin-bottom: 10px;
     }
   
-    .card ul {
-      font-size: 0.9rem;
-    }
+ 
   }

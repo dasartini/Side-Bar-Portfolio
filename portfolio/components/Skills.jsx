@@ -24,7 +24,6 @@ function Skills() {
                             <ol><p>✅ Netlify</p></ol>
                         </ul>
                     </div>
-                </div>
                 <div className="card frontend">
                     <h4>Front-end</h4>
                     <ul>
@@ -36,6 +35,7 @@ function Skills() {
                         <ol><p>☑️ Bootstrap</p></ol>
                         <ol><p>☑️ Lighthouse and other accessibility tools</p></ol>
                     </ul>
+                </div>
                 </div>
             </div>
         </SkillsStyles>
