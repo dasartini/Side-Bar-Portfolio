@@ -6,6 +6,7 @@ import Animation from "../styles/Animation";
 function Experience() {
     return (
         <CardStyle>
+            <div className="cardStyle">
             <h1>Coding Experience</h1><br />
             <Animation>
                 <img title="Showing project idea" className="cardImageAd" src={adrian2} alt="Adrian presenting a project" />
@@ -36,6 +37,7 @@ function Experience() {
                 </ul>
                 <h2>Experience and Technologies:</h2>
                 <Skills />
+            </div>
             </div>
         </CardStyle>
     )

@@ -95,7 +95,7 @@ function List() {
                     <Link className="external" to={'/contact'}>
                         <p className="links">
                             <img className="icons" src={contact} />
-                            Let's contact
+                            Contact
                         </p>
                     </Link>
                 </ul>

@@ -9,6 +9,7 @@ function NCTimes() {
     return (
         <div>
             <CardStyle>
+                <div className="cardStyle">
                 <div className="responsiveness">
                 <h1>The Mythical NC TIMES</h1>
                 <br />
@@ -35,6 +36,7 @@ function NCTimes() {
 
                 </div>
                 <img alt="NC Times demo" className="cardImage" title="All articles" src={nctimes} />
+                </div>
             </CardStyle>
         </div>
     );
