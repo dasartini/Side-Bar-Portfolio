@@ -9,7 +9,7 @@ import repo from '../src/assets/repo.svg';
 function Gifs() {
     return (
         <CardStyle>
-            <div>
+            <div className="cardStyle">
                 <h1>Fantastic Gifs</h1><br />
                 <p>
                     This is a basic React app. It was a bootcamp exercise aimed at learning the use of forms, styling, and fetching data from an external API.

@@ -90,12 +90,23 @@
 }
 
 @media (max-width: 768px) {
+  
+  .experienceTitle{
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    white-space: nowrap;
+    font-size: 25px;
+  }
 
   .cardStyle li p::before {
     content: "👉";
-    margin-right: 0.5rem;
+    margin-right: 0.3rem;
   }
+.pCard{
+margin-left: 3rem;
+margin-right: 3rem;
 
+}
   .cardStyle {
     margin-left: 5.7rem;
     margin-right: auto;
@@ -116,16 +127,18 @@
 
   .cardStyle p {
     font-size: 14px;
+    
   }
 
   .cardStyle li {
-    padding: 0.5rem;
+  
     font-size: 12px;
-    margin-right: 5rem;
-    margin-left:5rem;
-    padding: 2rem;
+    
+    padding: 0.5rem;
   }
-  .responsiveness{
+
+ 
+  /* .responsiveness{
     margin-left: 5rem;
     margin-right: 5rem;
   }
@@ -136,9 +149,8 @@
   .responsiveness3{
     margin-left: 6.8rem;
     margin-right: 7rem;
-  }
+  } */
+
 }
-
-
   
 

@@ -6,15 +6,16 @@ import Animation from "../styles/Animation";
 function Experience() {
     return (
         <CardStyle>
+            
+            
             <div className="cardStyle">
-            <h1>Coding Experience</h1><br />
-            <Animation>
-                <img title="Showing project idea" className="cardImageAd" src={adrian2} alt="Adrian presenting a project" />
-            </Animation>
-            <div>
-                <div className="responsiveness">
-                <p>After attending and successfully completing a software engineering bootcamp, I learned full-stack programming and gained experience in the following:</p>
-               </div>
+                <h1 className="experienceTitle">Coding Experience</h1> <br/>
+                <img title="Showing project idea" className="cardImage" src={adrian2} alt="Adrian presenting a project" />
+            <br/>
+            <br/>
+            
+                <p >After attending and successfully completing a software engineering bootcamp, I learned full-stack programming and gained experience in the following:</p>
+                
                 <ul>
                     <li>
                         <p>Database creation.</p>
@@ -37,8 +38,9 @@ function Experience() {
                 </ul>
                 <h2>Experience and Technologies:</h2>
                 <Skills />
-            </div>
-            </div>
+                </div>
+                
+            
         </CardStyle>
     )
 }
