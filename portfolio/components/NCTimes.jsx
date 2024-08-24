@@ -8,10 +8,10 @@ import repo2 from '../src/assets/repo2.svg';
 function NCTimes() {
     return (
         <div>
-            <CardStyle>
-                <div className="responsiveness">
-                <h1>The Mythical NC TIMES</h1>
-                <br />
+            <CardStyle> 
+                <div className="cardStyle">
+                <h1>The Mytical:<br/> NC Times</h1><br />
+              
                 <p>NC Times is two projects in one:</p>
                 <p>
                     Backend: A seeded API using SQL queries to create databases containing various articles. The data includes usernames, comments, articles, and kudos. It supports different API request methods (GET, PATCH, DELETE, etc.).
@@ -19,7 +19,6 @@ function NCTimes() {
                 <p>
                     Frontend: An app displaying the data, built in React. The methods are called using Axios with parameters. You can log in to an existing account (required to comment) and log out. If you want to try it out, log in with the username: grumpy19. Note: This is hosted on free instances using Render and Netlify, so it may take a few minutes to fetch the data.
                 </p>
-                </div>
                 <div className="projectButtons">
                         <Link to={'https://bohemianrapsodyjournal.netlify.app/'} className="external" target="_blank">
                     <Button>
@@ -34,7 +33,8 @@ function NCTimes() {
                     </Link>
 
                 </div>
-                <img alt="NC Times demo" className="cardImage" title="All articles" src={nctimes} />
+                <img alt="NC Times demo" className="cardImageNC" title="All articles" src={nctimes} />
+               </div>
             </CardStyle>
         </div>
     );

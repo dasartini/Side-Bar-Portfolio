@@ -38,7 +38,10 @@
   width: 100%;
   height: auto;
 }
+.cardImageNC{
+ width: 600px;
 
+}
 .cardImage2{
   border-radius: 20px;
 
@@ -108,7 +111,7 @@ margin-right: 3rem;
 
 }
   .cardStyle {
-    margin-left: 5.7rem;
+    margin-left: 5.5rem;
     margin-right: auto;
     padding: 1rem;
 
@@ -118,7 +121,10 @@ margin-right: 3rem;
     margin-bottom: 1rem;
     width:250px;
   }
-
+  .cardImageNC{
+    width: 16rem;
+   
+   }
   .cardImageAd {
     margin-top: 1rem;
     margin-bottom: 1rem;
