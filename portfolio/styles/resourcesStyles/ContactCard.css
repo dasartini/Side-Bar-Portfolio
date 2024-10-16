@@ -133,7 +133,7 @@ p {
 }
 
 @media (max-width: 768px) {
-    /* Adjustments for smaller screens */
+
     .card-container {
         
     margin-left: 15rem;
@@ -163,5 +163,16 @@ p {
     }
 
        }
+
+       @media (max-height: 500px)  {
+       
+        .skills {
+            margin-top: 20px;
+            margin-left: 0.0001px;
+        }
+        .skills ul{
+            margin-left:20px
+        }
+    }
 
 

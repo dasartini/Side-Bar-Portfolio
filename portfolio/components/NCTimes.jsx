@@ -10,7 +10,7 @@ function NCTimes() {
         <div>
             <CardStyle> 
                 <div className="cardStyle">
-                <h1>The Mytical:<br/> NC Times</h1><br />
+                <h1>The Mythical:<br/> NC Times</h1><br />
               
                 <p>NC Times is two projects in one:</p>
                 <p>

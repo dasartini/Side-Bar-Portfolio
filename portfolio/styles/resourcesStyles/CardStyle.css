@@ -84,6 +84,7 @@
 
 .cardStyle li p {
   display: flex;
+  margin-bottom: 2px;
   align-items: center;
 }
 
@@ -143,20 +144,17 @@ margin-right: 3rem;
     padding: 0.5rem;
   }
 
- 
-  /* .responsiveness{
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-  .responsiveness2{
-    margin-left: 6.8rem;
-    margin-right: 5rem;
-  }
-  .responsiveness3{
-    margin-left: 6.8rem;
-    margin-right: 7rem;
-  } */
 
 }
-  
 
+
+  
+@media (max-height: 500px ){
+  .cardStyle {
+    margin-left: 5.5rem;
+    margin-right: auto;
+    padding: 1rem;
+
+  }
+  
+}

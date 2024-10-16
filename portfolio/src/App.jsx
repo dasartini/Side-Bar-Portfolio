@@ -15,6 +15,7 @@ function App() {
 
   return (
     <div>
+      
       <Sidebar />
       <Routes>
       <Route path={'/'} element={<Biography />} />
