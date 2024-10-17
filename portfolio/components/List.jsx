@@ -49,7 +49,7 @@ function List() {
     }, []);
 
     return (
-        <div>
+        <div className="sidebarList">
             <ol>
                 <ul>
                     <Link className="Link" to={'./biography'}>

@@ -21,6 +21,7 @@ function Profile() {
                 className="profilePicture" src={me3} />
             <div hidden={visible}
             >
+                <div className="profileInfo">
                 <h2> Adrian Sartini</h2>
                 <h4> Junior Software Engineer </h4>
 
@@ -30,6 +31,7 @@ function Profile() {
                 <Link to='https://github.com/dasartini' target="_blank " >
                     <img className="socials" title='My Github' src={github2}></img>
                 </Link>
+                </div>
             </div>
         </div>
 

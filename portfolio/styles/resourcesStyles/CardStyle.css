@@ -34,17 +34,19 @@
 }
 
 .cardImage {
+  animation: fadeIn 2s;
   border-radius: 20px;
   width: 100%;
   height: auto;
 }
 .cardImageNC{
  width: 600px;
+ animation: fadeIn 2s;
 
 }
 .cardImage2{
   border-radius: 20px;
-
+  animation: fadeIn 2s;
   height: auto;
 }
 .cardImageAd{

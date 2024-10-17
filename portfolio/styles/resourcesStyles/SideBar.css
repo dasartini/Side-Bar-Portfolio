@@ -27,7 +27,15 @@ body {
   .sidebar:hover {
     
     width: 260px;
+    .profileInfo{
+      animation: fadeIn 3s;
+    }
+    .sidebarList{
+      transition: transform 1s ease; 
+      transform: translateY(1.5rem)
+    }
   }
+ 
   
   .sidebar .sidebar-header {
     display: flex;
