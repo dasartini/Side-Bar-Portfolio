@@ -3,6 +3,7 @@
     width: 500px;
     margin: 30px auto;
     position: relative;
+    animation: fadeIn 4s;
   }
   
   .imageAlbum {
