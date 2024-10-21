@@ -6,5 +6,6 @@ Displays much better on desktop than on mobile, I still need to do some adjustme
 
 It is hosted on netlify.
 
-https://adriansartini.netlify.app/
+asartini.dev
+
 
