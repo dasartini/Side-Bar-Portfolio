@@ -21,6 +21,7 @@ function Profile() {
                 className="profilePicture" src={me3} />
             <div hidden={visible}
             >
+                
                 <div className="profileInfo">
                 <h2> Adrian Sartini</h2>
                 <h4> Junior Software Engineer </h4>

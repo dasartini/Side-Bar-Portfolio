@@ -124,7 +124,7 @@ p {
 }
 
 .skills ul li {
-    border: 1px solid #2D2747;
+    border: 1px solid #5b4ca0;
     border-radius: 2px;
     display: inline-block;
     font-size: 12px;
@@ -165,14 +165,17 @@ p {
 
        }
 
-       @media (max-height: 500px)  {
+       @media (max-width: 700px)  {
        
         .skills {
-            margin-top: 20px;
+            margin-top: 1.25rem;
             margin-left: 0.0001px;
         }
         .skills ul{
-            margin-left:20px
+            margin-left:1.25rem;
+        }
+        .skills h6{
+            margin-left: 1.25rem;
         }
     }
 

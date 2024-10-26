@@ -6,6 +6,7 @@ import project from '../src/assets/project.svg';
 import hot from '../src/assets/hot.png';
 import hobbies from '../src/assets/hobbies.svg';
 import contact from '../src/assets/contact.svg';
+import arrow from '../src/assets/arrow.svg'
 
 
 
@@ -69,10 +70,12 @@ function List() {
                 </ul>
                 <ul><Link className="external">
                     <span onClick={handleClick}>
-                        <p className="links">
+                        <p className="links" id="arrow">
                             <img className="icons" src={project} />
                             Projects
+                            <img className="iconArrow" src={arrow}/>
                         </p>
+                        
                     </span>
                     {list && (
                         <ul className="list">

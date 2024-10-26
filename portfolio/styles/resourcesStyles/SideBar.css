@@ -28,7 +28,13 @@ body {
     
     width: 260px;
     .profileInfo{
-      animation: fadeIn 3s;
+      width: 15.625rem;
+  height: 6.563rem;
+
+      animation: fadeIn 1s;
+      :hover {
+        transform: translateX(0);
+      }
     }
     .sidebarList{
       transition: transform 1s ease; 
@@ -94,7 +100,11 @@ body {
     background: #fff;
     border-radius: 4px;
   }
-  
+  p#arrow.links{
+  display:flex;
+  flex-direction: row;
+
+}
   
   .profilePicture{
 
@@ -117,6 +127,12 @@ body {
 margin-bottom: 10px ;
 padding: 1px;
       }
+      
+    .iconArrow{
+      height: 20px;
+      margin-left: 2rem;
+     color: azure;
+    }
 
   .projectButtons{
 
