@@ -41,7 +41,10 @@ body {
       transform: translateY(1.5rem)
     }
   }
+ .listContainer{
+  animation: fadeIn 1s;
  
+ }
   
   .sidebar .sidebar-header {
     display: flex;
