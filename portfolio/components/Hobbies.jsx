@@ -18,9 +18,10 @@ function Hobbies() {
 <Photos />
               
                 </div>
-                <p>I am also into financial education, I have experience of 6 years in high risk investments such as Forex, CDF indexes and my biggest passion is the crypto world</p>
+                <p>I am also into financial education, I have 6 years experience in high risk investments such as Forex, CDF indexes and my favorite hobbie is the crypto world</p>
                 <p>Actively participating in meme tokens communities in Ethereum and Solana chain.</p>
                 <p>Languages are another interest. Fluent in Spanish, Italian, and Portuguese, I'm currently learning Polish.</p>
+                <p>Like to read books about financial education and self-improvement.</p>
                 <p>Continuous learning keeps me motivated and fulfilled.</p>
                 </div>
             </div>
