@@ -1,5 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { ThemeContext } from "../contexts/Theme";
+import SwitchS from "../styles/SwitchS";
 
 function ThemeSwitch() {
     const { theme, setTheme } = useContext(ThemeContext);
@@ -20,9 +21,14 @@ function ThemeSwitch() {
     }
 
     return (
-        <button className="switch" onClick={handleClick}>
-            <p className={theme}>SWITCH COLOR</p>
-        </button>
+    <SwitchS>
+    <div>
+        <label className="switch">
+        <input onChange={handleClick}type="checkbox"/>
+        <span className="slider"></span>
+      </label>
+      </div>
+      </SwitchS>
     );
 }
 

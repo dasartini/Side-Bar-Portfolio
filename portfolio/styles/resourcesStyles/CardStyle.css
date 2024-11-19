@@ -46,7 +46,7 @@
   text-align: center;
   margin: 0 auto;
   float: none;
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-bottom: 3rem;
   opacity: 0; 
   animation: fadeInUp 0.3s forwards;
@@ -141,7 +141,7 @@ margin-right: 3rem;
 }
   .cardStyle {
     margin-left: 5.5rem;
-    margin-right: auto;
+    margin-right: 0.5rem;
     padding: 1rem;
 
   }
