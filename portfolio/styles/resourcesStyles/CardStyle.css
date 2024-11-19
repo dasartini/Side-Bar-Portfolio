@@ -75,7 +75,7 @@
   background: radial-gradient(#1b1b1b, #333);
   border: 1px solid #dd2476;
   color: rgba(250, 250, 250, 0.9);
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 2rem; 
   transition: box-shadow 0.3s ease;
   list-style-type: none;
   margin-bottom: 1rem;
@@ -85,15 +85,21 @@
 }
 
 .cardStyle li p {
-  display: flex;
-  margin-bottom: 2px;
-  align-items: center;
+  margin-top:0.1rem;
+  margin-left: 1rem; 
 }
 
-.cardStyle li p::before {
+.cardStyle li::before {
   content: "👉";
-  margin-right: 0.5rem;
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem; 
+  font-size: 1rem; 
 }
+.gigtasticLink{
+  color: #ffde34;
+}
+
 
 @media (max-width: 768px) {
   
@@ -103,11 +109,11 @@
     white-space: nowrap;
     font-size: 25px;
   }
-
-  .cardStyle li p::before {
-    content: "👉";
-    margin-right: 0.3rem;
+  .cardStyle li p {
+    margin-top:0.1rem;
+    margin-left: 2.3rem; 
   }
+
 .pCard{
 margin-left: 3rem;
 margin-right: 3rem;

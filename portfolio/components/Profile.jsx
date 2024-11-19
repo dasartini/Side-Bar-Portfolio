@@ -3,7 +3,7 @@ import { useContext, useState } from "react";
 import { VisibleContext } from "../contexts/Visible";
 import github2 from '../src/assets/github2.svg.png';
 import linkedin from '../src/assets/linkedin.svg';
-import me3 from '../src/assets/me3.jpg';
+import me3 from '../src/assets/newPic.jpg';
 
 
 

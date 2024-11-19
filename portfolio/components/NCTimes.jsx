@@ -12,13 +12,28 @@ function NCTimes() {
                 <div className="cardStyle">
                 <h1>The Mythical:<br/> NC Times</h1><br />
               
-                <p>NC Times is two projects in one:</p>
+                <p>NC times is a Web App where you can see and read diffrent articles, as well as like the articles and comment by logging in with existing credentials</p>
+                
+
+                <p>But NC Times is not only this, NC Times is two projects in one:</p>
+
+                <ul>
+                    <li>
+                        <p>                    Backend: A seeded API using SQL queries to create databases containing various articles. The data includes usernames, comments, articles, and likes. It supports different API request methods (GET, PATCH, DELETE, etc.) and its hosted on Render in a free instance.
+                        </p>
+                    </li>
+                    <li>
+                        <p>                    Frontend: The visual interface of the app displaying the data, built in React. The methods are called using Axios with parameters. You can log in to an existing account (required to comment) and log out.
+                        </p>
+                    </li>
+                   
+                </ul>
                 <p>
-                    Backend: A seeded API using SQL queries to create databases containing various articles. The data includes usernames, comments, articles, and kudos. It supports different API request methods (GET, PATCH, DELETE, etc.).
                 </p>
                 <p>
-                    Frontend: An app displaying the data, built in React. The methods are called using Axios with parameters. You can log in to an existing account (required to comment) and log out. If you want to try it out, log in with the username: grumpy19. Note: This is hosted on free instances using Render and Netlify, so it may take a few minutes to fetch the data.
                 </p>
+                <p>Give it a go, first, load all the articles by clicking All articles button (it will load all the data required to work), then log in with the username: grumpy19. Note: This is hosted on free instances using Render and Netlify, so it may take a few minutes to fetch the data.</p>
+
                 <div className="projectButtons">
                         <Link to={'https://bohemianrapsodyjournal.netlify.app/'} className="external" target="_blank">
                     <Button>

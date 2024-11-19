@@ -18,23 +18,43 @@ function Experience() {
                 
                 <ul>
                     <li>
-                        <p>Database creation.</p>
+                        <p>Database creation</p>
                     </li>
                     <li>
-                        <p>Seeding, hosting, and migration of REST APIs.</p>
+                        <p>Seeding, hosting, and migration of REST APIs</p>
                     </li>
                     <li>
-                        <p>Creating and hosting different responsive apps that can be displayed on desktop/mobile.</p>
+                        <p>Creating and hosting different responsive apps that can be displayed on desktop/mobile</p>
                     </li>
                     <li>
-                        <p>Actively participating in projects utilizing AGILE principles (SCRUM).</p>
+                        <p>Actively participating in projects utilizing AGILE principles (SCRUM)</p>
                     </li>
                     <li>
-                        <p>Mobile app development.</p>
+                        <p>Mobile App development</p>
                     </li>
                     <li>
-                        <p>Easily learning, applying, and implementing new technologies for further programming, yielding good results.</p>
+                        <p>Easily learning, applying, and implementing new technologies for further programming, yielding good results</p>
                     </li>
+                </ul>
+                <p >Working on freelance basis, developing commercial websites and Apps with my personal network I developed more knowledge and skills such as:</p>
+                
+                <ul>
+                    <li>
+                        <p>APK building with Expo eas</p>
+                    </li>
+                    <li>
+                        <p>Testing Apps with Android Studio and Jetbrains</p>
+                    </li>
+                    <li>
+                        <p>Updating, maintaining and fixing bugs</p>
+                    </li>
+                    <li>
+                        <p>Developing non-relational document databases</p>
+                    </li>
+                    <li>
+                        <p>Websites for Memecoin community Tokens in Solana</p>
+                    </li>
+                    
                 </ul>
                 <h2>Experience and Technologies:</h2>
                 <Skills />
