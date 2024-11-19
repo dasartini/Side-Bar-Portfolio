@@ -40,11 +40,10 @@ h2{
   font-weight: 600;
   font-style: normal;
   white-space: nowrap;
-
+  color: bisque;
 
 }
 body{
-  font-family: 'Poppins', sans-serif;
   background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
@@ -67,27 +66,13 @@ white-space: nowrap;
 text-decoration: none;
 
 }
-.links:hover{
-background: rgb(10, 6, 17);
-color: #fff;
-border-radius:  4px;
 
-
-}
 .switch{
   height: 90px;
   margin-left:11rem;
 
 }
-.test{
-  color: yellow
-}
-.dark{
-  color: black
-}
-.light{
-  color: lightblue;
-}
+
 
 @media (max-width: 768px){
   h1{
