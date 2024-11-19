@@ -10,6 +10,7 @@ import Experience from '../components/Experience'
 import Hobbies from '../components/Hobbies'
 import Contact from '../components/Contact'
 import ErrorPage from '../components/ErrorPage'
+import Hippo from '../components/Hippo'
 
 function App() {
 
@@ -24,7 +25,8 @@ function App() {
         <Route path={'/gifs'} element={<Gifs />} />
         <Route path={'/gigtastic'} element={<Swipper />} />
         <Route path={'/nctimes'} element={<NCTimes />} />
-        <Route path={'/hobbies'} element={<Hobbies/>}/>
+        <Route path={'/hobbies'} element={<Hobbies/>}/>#
+        <Route path={'/hippo-cat-on-sol'} element={<Hippo/>}/>
         <Route path={'/contact'} element={<Contact/>}/>
         <Route path="*" element={<ErrorPage/>} />
 
