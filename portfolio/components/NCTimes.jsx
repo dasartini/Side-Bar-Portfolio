@@ -35,7 +35,7 @@ function NCTimes() {
                     <p>Give it a go, first, load all the articles by clicking All articles button (it will load all the data required to work), then log in with the username: grumpy19. Note: This is hosted on free instances using Render and Netlify, so it may take a few minutes to fetch the data.</p>
 
                     <div className="projectButtons">
-                        <Link to={'https://bohemianrapsodyjournal.netlify.app/'} className="external" target="_blank">
+                        <Link to={'https://nctimes.netlify.app'} className="external" target="_blank">
                             <Button>
                                 Try It!
                             </Button>
