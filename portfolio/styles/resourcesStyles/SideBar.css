@@ -3,12 +3,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-    min-height: 100vh;
-    background: #F0F4FF;
-    overflow-x: hidden; 
-  }
-  
+.dark{
   .sidebar {
     position: fixed;
     top: 0;
@@ -23,7 +18,58 @@ body {
     transition: all 0.3s ease;
     z-index: 1000;
   }
+  h2{
+    color: #ffffff;
+  }
+
+  .links:hover{
+    background: rgb(24, 16, 39);
+    color: #fff;
+    border-radius:  4px;
+    
+    
+    }
+    .Link{
+      color: #85b3c5
+    }
   
+}
+
+.light{
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 85px;
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+    background: #5ea3f3;
+    padding: 25px 20px;
+    transition: all 0.3s ease;
+    z-index: 1000;
+  }
+ 
+  h2, h4{
+    color: #000000;
+  }
+  .sidebar .links{
+    color: #000000;
+  }
+
+  .links:hover{
+    background: rgb(199, 211, 214);
+    color: #110f0f;
+    border-radius:  4px;
+    
+    
+    }
+    .Link{
+      color: #0633ad
+    }
+  
+}
   .sidebar:hover {
     
     width: 260px;
@@ -108,6 +154,7 @@ body {
   flex-direction: row;
 
 }
+
   
   .profilePicture{
     width: 60px; 
@@ -136,7 +183,7 @@ padding: 1px;
     .iconArrow{
       height: 20px;
       margin-left: 2rem;
-     color: azure;
+   
     }
 
   .projectButtons{
@@ -152,8 +199,5 @@ padding: 1px;
     padding: 0.5rem;
     margin-left: 2rem;
   }
-  .Link{
-    color: #F0F4FF
-  }
-
+  
 

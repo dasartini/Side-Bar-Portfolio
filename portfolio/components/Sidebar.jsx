@@ -3,6 +3,7 @@ import List from "./List";
 import SideBar from "../styles/SideBar";
 import { useContext } from "react";
 import { VisibleContext } from "../contexts/Visible";
+import { ThemeContext } from "../contexts/Theme";
 
 
 function Sidebar() {
