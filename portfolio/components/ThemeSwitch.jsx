@@ -1,31 +1,29 @@
-import React, { useState,useContext } from 'react';
-import Button from "../styles/Button";
-import { ThemeContext } from '../contexts/Theme';
+import React, { useContext, useEffect } from "react";
+import { ThemeContext } from "../contexts/Theme";
 
 function ThemeSwitch() {
-    
-    
-    const{setTheme, theme} =useContext(ThemeContext)
+    const { theme, setTheme } = useContext(ThemeContext);
 
-    // Step 1: Use state to track the current state of the switch
-    const [count, setCount] = useState(0);
+    useEffect(() => {
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme) {
+            setTheme(savedTheme);
+        }
+    }, [setTheme]);
 
-    // Step 2: Handle button clicks by updating the state
+    useEffect(() => {
+        localStorage.setItem("theme", theme);
+    }, [theme]);
+
     function handleClick() {
-        if(theme === "dark"){setTheme("light")}
-        else if(theme === "light"){ setTheme("dark")}
-        
-        console.log(theme)
-        setCount(count + 1); // Increment count by 1
-        console.log(count); // This might log the previous count due to React's asynchronous state updates
+        setTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"));
     }
 
     return (
         <button className="switch" onClick={handleClick}>
-            
-            <p className={theme}>Piece of state: {count}</p> {/* Display the current state */}
+            <p className={theme}>SWITCH COLOR</p>
         </button>
     );
 }
 
-export default ThemeSwitch;
+export default ThemeSwitch
