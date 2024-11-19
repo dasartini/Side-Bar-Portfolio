@@ -8,7 +8,6 @@ import { ThemeContext } from "../contexts/Theme";
 
 function Sidebar() {
     const { setVisible } = useContext(VisibleContext)
-    const { theme} =useContext(ThemeContext)
 
     function handleOver() {
 
@@ -22,12 +21,10 @@ function Sidebar() {
     return (
         <aside onMouseOver={() => { handleOver() }}
             onMouseOut={() => { handleOut() }}>
-                <div className={theme}>
             <SideBar  >
                 <Profile />
                 <List />
             </SideBar>
-            </div>
         </aside>
 
     )

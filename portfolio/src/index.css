@@ -11,7 +11,7 @@ text-decoration: none;
 
 :root{
 --color-bg : #1f1f38;
---color-bg-variant: #2c2c6c;
+--color-bg-variant: #a6cfff;
 --color--primary: #4db5ff;
 --color-primary-variant: rgba(77,181,255,0.4);
 --color-white: #fff;
@@ -43,9 +43,15 @@ h2{
   color: bisque;
 
 }
-body{
+ body .dark{
+ 
   background-color: var(--color-bg);
   color: var(--color-white);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+ body .light{
+  background-color:var(--color-bg-variant);
   line-height: 1.7;
   overflow-x: hidden;
 }
@@ -68,7 +74,7 @@ text-decoration: none;
 }
 
 .switch{
-  height: 90px;
+ 
   margin-left:11rem;
 
 }

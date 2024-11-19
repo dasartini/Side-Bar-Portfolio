@@ -11,19 +11,39 @@
     transform: translateY(0);
   }
 }
-
-.cardStyle {
-  position: relative;
-  border-radius: 20px;
+.dark .cardStyle{
   background: #4d4a4a;
   background: radial-gradient(#050414, #1b033ba2);
   border: 1px solid #dd2476;
   color: rgba(250, 250, 250, 0.8);
+  
+
+}
+.light .cardStyle{
+ background: #4d4a4a;
+  background: radial-gradient(#ffffff, #33d6ada2);
+  border: 1px solid #0c382d;
+  color: rgba(0, 0, 0, 0.8);
+  p{ color: #050414;}
+  li{  background: radial-gradient(#4be6d9, #e2e2e2);
+    border: 1px solid #0c382d;
+    color: rgba(250, 250, 250, 0.9);
+
+  }
+
+  .gigtasticLink{
+    color: #152ba8;
+  }
+  
+}
+
+.cardStyle {
+  position: relative;
+  border-radius: 20px;
   padding: 3rem;
   max-width: 800px;
   transition: box-shadow 0.3s ease;
   text-align: center;
-  color: #fff;
   margin: 0 auto;
   float: none;
   margin-top: 3rem;

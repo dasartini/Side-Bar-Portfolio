@@ -12,16 +12,19 @@ import Contact from '../components/Contact'
 import ErrorPage from '../components/ErrorPage'
 import Hippo from '../components/Hippo'
 import ThemeSwitch from '../components/ThemeSwitch'
+import { useContext } from 'react'
+import { ThemeContext } from '../contexts/Theme'
+
 
 function App() {
-
+const {theme} =useContext(ThemeContext)
   return (
     <div>
       
+<div className={theme}>
       <Sidebar />
       <ThemeSwitch/>
       <Routes>
-
       <Route path={'/'} element={<Biography />} />
         <Route path={'/biography'} element={<Biography />} />
         <Route path={'/experience'} element={<Experience/>}/>
@@ -32,9 +35,10 @@ function App() {
         <Route path={'/hippo-cat-on-sol'} element={<Hippo/>}/>
         <Route path={'/contact'} element={<Contact/>}/>
         <Route path="*" element={<ErrorPage/>} />
-
+        
        
       </Routes>
+      </div>
     </div>
   )
 }

@@ -14,9 +14,49 @@
         opacity: 1;
     }
 }
+.light .cardBody{
+    background-color: #a6cfff;
+    .card-container{
+        background-color: #5ea3f3;
+    }
+    h3, h6, p{
+        color: #19191b;
+    }
+    .buttons li.secondary {
+        user-select: auto;
+        background-color: transparent;
+        color: #000000;
+        border: 1px solid #203538;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
-body {
-    background-color: #28223F;
+.buttons li.primary {
+    user-select: auto;
+    background-color: #6ddae2;
+    border: 1px solid #091111;
+    border-radius: 3px;
+    color: #231E39;
+    
+}
+.skills{
+    background-color:#6289b6;
+}
+.skills ul li {
+    border: 1px solid  #203538;
+    color: #B3B8CD; 
+    color: #141414; 
+}
+.card-container .junior {
+    color: #212122;
+    background-color:#6289b6;
+}
+.profilePictureRound{
+    border: 3px solid #6289b6;
+}
+}
+.cardBody {
+    background-color:  #1f1f38;
     font-family: Montserrat, sans-serif;
     display: flex;
     align-items: center;
@@ -42,6 +82,7 @@ p {
 }
 
 .card-container {
+    
     background-color: #231E39;
     border-radius: 5px;
     box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);

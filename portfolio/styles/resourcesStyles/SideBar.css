@@ -23,14 +23,14 @@
   }
 
   .links:hover{
-    background: rgb(10, 6, 17);
+    background: rgb(24, 16, 39);
     color: #fff;
     border-radius:  4px;
     
     
     }
     .Link{
-      color: #c4c4c5
+      color: #85b3c5
     }
   
 }
@@ -45,7 +45,7 @@
     display: flex;
     overflow-x: hidden;
     flex-direction: column;
-    background: #ced0d6;
+    background: #5ea3f3;
     padding: 25px 20px;
     transition: all 0.3s ease;
     z-index: 1000;
@@ -59,7 +59,7 @@
   }
 
   .links:hover{
-    background: rgb(181, 163, 211);
+    background: rgb(199, 211, 214);
     color: #110f0f;
     border-radius:  4px;
     

@@ -5,7 +5,7 @@ function Contact() {
     return (
 
         <ContactCard>
-            <div>
+            <div className="cardBody">
                 <div className="card-container">
                     <span className="junior">Junior</span>
                     <img className="profilePictureRound" src={me3} alt="Me" />
