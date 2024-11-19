@@ -11,6 +11,7 @@ import Hobbies from '../components/Hobbies'
 import Contact from '../components/Contact'
 import ErrorPage from '../components/ErrorPage'
 import Hippo from '../components/Hippo'
+import ThemeSwitch from '../components/ThemeSwitch'
 
 function App() {
 
@@ -18,7 +19,9 @@ function App() {
     <div>
       
       <Sidebar />
+      <ThemeSwitch/>
       <Routes>
+
       <Route path={'/'} element={<Biography />} />
         <Route path={'/biography'} element={<Biography />} />
         <Route path={'/experience'} element={<Experience/>}/>
