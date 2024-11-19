@@ -43,17 +43,19 @@ h2{
   color: bisque;
 
 }
- body .dark{
+ html, body .dark{
  
   background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
   overflow-x: hidden;
+  height: 100%;
 }
- body .light{
+html, body .light{
   background-color:var(--color-bg-variant);
   line-height: 1.7;
   overflow-x: hidden;
+  height: 100%;
 }
 html{
   scroll-behavior: smooth;

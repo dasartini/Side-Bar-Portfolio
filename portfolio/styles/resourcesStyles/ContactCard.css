@@ -209,7 +209,7 @@ p {
 
        }
 
-       @media (max-width: 700px)  {
+       @media (max-width: 768px)  {
        
         .skills {
             margin-top: 1.25rem;

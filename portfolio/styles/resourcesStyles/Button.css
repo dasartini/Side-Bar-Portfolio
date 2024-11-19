@@ -1,3 +1,13 @@
+.light .button:before {
+    content: '';
+    background: linear-gradient(45deg, #580c0c, #502909, #636109, #2b5c18, #1c5a50, #7f88b6, #533672, #291424, #662121);
+   
+}
+.light .button:after {
+  
+    background: #1c4a80;
+   
+}
 
 .button {
 margin: auto;
