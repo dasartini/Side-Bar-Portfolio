@@ -52,7 +52,7 @@ function Experience() {
                         <p>Developing non-relational document databases</p>
                     </li>
                     <li>
-                        <p>Websites for Memecoin community Tokens in Solana</p>
+                        <p>Websites for memecoin community tokens in Solana chain</p>
                     </li>
                     
                 </ul>
