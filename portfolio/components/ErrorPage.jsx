@@ -10,6 +10,7 @@ function ErrorPage(){
             <Link to={'/'}>
            <div className="errorText">
                 <h1>Oops!</h1>
+                <br></br>
                 <p>The page that you are looking for does not exist!
                 </p>
                 <br/>
