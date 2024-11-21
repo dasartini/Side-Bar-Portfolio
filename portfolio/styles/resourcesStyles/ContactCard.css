@@ -17,10 +17,10 @@
 .light .cardBody{
     background-color: #a6cfff;
     .card-container{
-        background-color: #5ea3f3;
+        background-color: #68a5e7;
     }
     h3, h6, p{
-        color: #19191b;
+        color: #000000;
     }
     .buttons li.secondary {
         user-select: auto;
@@ -33,26 +33,26 @@
 
 .buttons li.primary {
     user-select: auto;
-    background-color: #6ddae2;
+    background-color: #3085e6;
     border: 1px solid #091111;
     border-radius: 3px;
     color: #231E39;
     
 }
 .skills{
-    background-color:#6289b6;
+    background-color:#3085e6;
 }
 .skills ul li {
-    border: 1px solid  #203538;
+    border: 1px solid  #000000;
     color: #B3B8CD; 
-    color: #141414; 
+    color: #000000; 
 }
 .card-container .junior {
-    color: #212122;
-    background-color:#6289b6;
+    color: #000000;
+    background-color:#0065D9;
 }
 .profilePictureRound{
-    border: 3px solid #6289b6;
+    border: 3px solid #0065D9;
 }
 }
 .cardBody {
@@ -85,7 +85,7 @@ p {
     
     background-color: #231E39;
     border-radius: 5px;
-    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 20px 30px -10px rgb(0, 0, 0);
     color: #B3B8CD;
     padding-top: 30px;
     position: relative;
@@ -176,6 +176,17 @@ p {
 
 @media (max-width: 768px) {
 
+    .light .cardBody{
+        .buttons li.primary,
+     .buttons li.secondary{
+        
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+        
+    }
+    
+    
     .card-container {
     margin-left: 15rem;
     margin-right: 10rem;
