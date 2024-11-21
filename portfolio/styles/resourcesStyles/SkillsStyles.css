@@ -19,8 +19,8 @@
   }
   .dark .card{
     background: #4d4a4a;
-    background: radial-gradient(#1106aa, #4d297ba2);
-    border: 1px solid #dd2476;
+    background: radial-gradient( #4d297ba2,#16124e);
+    border: 1px solid  #6938c5;
     color: rgba(250, 250, 250, 0.8);
   }
 
