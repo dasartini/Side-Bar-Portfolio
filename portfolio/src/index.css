@@ -43,7 +43,7 @@ h2{
   color: bisque;
 
 }
- html, body .dark{
+ /* html, body .dark{
  
   background-color: var(--color-bg);
   color: var(--color-white);
@@ -56,10 +56,29 @@ html, body .light{
   line-height: 1.7;
   overflow-x: hidden;
   height: 100%;
+} */
+
+html.light {
+  background-color: var(--color-bg-variant);
+  color: var(--color-bg);
+  line-height: 1.7;
+  overflow-x: hidden;
+  height: 100%;
 }
+
+html.dark {
+  background-color: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  overflow-x: hidden;
+  height: 100%;
+}
+
 html{
   scroll-behavior: smooth;
+
 }
+
 
 ::-webkit-scrollbar{
   display:none;

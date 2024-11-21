@@ -52,17 +52,29 @@
   margin: 0 auto;
   float: none;
   margin-top: 1rem;
-  margin-bottom: 3rem;
   opacity: 0; 
   animation: fadeInUp 0.3s forwards;
   animation-delay: calc(0.3s * var(--animation-order));
 }
-
+.errorText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  margin: inherit;
+}
 .cardImage {
   animation: fadeIn 2s;
   border-radius: 20px;
   width: 100%;
   height: auto;
+}
+.cardImageErr{
+  margin-top: 1rem;
+  height: 10rem;
+  border-radius: 20px;
 }
 .cardImageNC{
  width: 600px;

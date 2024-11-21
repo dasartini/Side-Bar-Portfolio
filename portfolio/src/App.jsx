@@ -12,18 +12,19 @@ import Contact from '../components/Contact'
 import ErrorPage from '../components/ErrorPage'
 import Hippo from '../components/Hippo'
 import ThemeSwitch from '../components/ThemeSwitch'
-import { useContext} from 'react'
+import { useContext, useEffect} from 'react'
 import { ThemeContext } from '../contexts/Theme'
 
 
 function App() {
 const {theme} =useContext(ThemeContext)
 
-
+useEffect(() => {
+  document.documentElement.className = theme;
+}, [theme]);
   return (
     <div>
       
-<div className={theme}>
       <Sidebar />
       <ThemeSwitch/>
       <Routes>
@@ -40,7 +41,7 @@ const {theme} =useContext(ThemeContext)
         
        
       </Routes>
-      </div>
+      <br/>
     </div>
   )
 }
