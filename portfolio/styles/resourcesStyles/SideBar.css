@@ -13,7 +13,7 @@
     display: flex;
     overflow-x: hidden;
     flex-direction: column;
-    background: #161a2d;
+    background: linear-gradient(to left, #161a2d 70%, rgba(22, 26, 45, 0) 100%);
     padding: 25px 20px;
     transition: all 0.3s ease;
     z-index: 1000;
@@ -45,7 +45,7 @@
     display: flex;
     overflow-x: hidden;
     flex-direction: column;
-    background: #5ea3f3;
+    background: linear-gradient(to right, #5ea3f3 97%, rgba(22, 26, 45, 0) 100%);
     padding: 25px 20px;
     transition: all 0.3s ease;
     z-index: 1000;
