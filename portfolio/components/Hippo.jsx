@@ -19,10 +19,11 @@ function Gifs() {
                 <p>The memecoins market is moved by the collective hype and influenced by global events, following in most of the cases BITCOIN.</p>
                 <p>In this case Hippo Cat was created following a popular token hype called $MOODENG, another hippo.</p>
                 <div className="projectButtons">
-                   
-                    <Button>
-                        <Link className="external" to={'https://hippocatonsol.com/'} target="_blank">TRY IT</Link>
-                    </Button>
+                <Link to={'https://hippocatonsol.com/'} className="external" target="_blank">
+                            <Button>
+                                Try It!
+                            </Button>
+                        </Link>
                     <br/>
                     <Link to={'https://github.com/dasartini/Hippo-Cat'} target="_blank" >
                         <img className="iconRepo" title="Repo" src={repo} />
