@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect,useContext } from "react";
 import profile from '../src/assets/profile.svg';
 import work from '../src/assets/work.svg';
 import project from '../src/assets/project.svg';
@@ -7,12 +7,16 @@ import hot from '../src/assets/hot.png';
 import hobbies from '../src/assets/hobbies.svg';
 import contact from '../src/assets/contact.svg';
 import arrow from '../src/assets/arrow.svg'
+import arrow2 from '../src/assets/arrow2.svg'
+import { ThemeContext } from '../contexts/Theme'
+
 
 
 
 
 
 function List() {
+    const {theme} =useContext(ThemeContext)
     const [list, setList] = useState(false)
     const [isSidebarHovered, setIsSidebarHovered] = useState(false)
 
@@ -73,7 +77,7 @@ function List() {
                         <p className="links" id="arrow">
                             <img className="icons" src={project} />
                             Projects
-                            <img className="iconArrow" src={arrow}/>
+                           {theme === "dark"? <img className="iconArrow" src={arrow}/> : <img className="iconArrow" src={arrow2}/>} 
                         </p>
                         
                     </span>

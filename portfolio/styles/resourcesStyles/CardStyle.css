@@ -136,6 +136,24 @@
 .gigtasticLink{
   color: #ffde34;
 }
+@media(max-width: 980px){
+  .cardStyle{
+    margin-right: 2rem;
+  }
+}
+@media(max-width: 920px){
+  .cardStyle{
+    padding: 2rem;
+    margin-right: 1rem;
+  }
+}
+
+@media(min-width: 769px) and (max-width: 920px){
+  .cardStyle{
+    margin-left: 6rem;
+    margin-right: 2rem;
+  }
+}
 
 
 @media (max-width: 768px) {
