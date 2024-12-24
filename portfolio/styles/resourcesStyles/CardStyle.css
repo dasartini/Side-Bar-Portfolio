@@ -41,6 +41,9 @@
 }
 
 .cardStyle {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   position: relative;
   border-radius: 20px;
   padding: 3rem;
@@ -157,6 +160,7 @@
 
 
 @media (max-width: 768px) {
+
   
   .experienceTitle{
     font-family: "Poppins", sans-serif;
