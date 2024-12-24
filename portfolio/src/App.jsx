@@ -14,6 +14,7 @@ import Hippo from '../components/Hippo'
 import ThemeSwitch from '../components/ThemeSwitch'
 import { useContext, useEffect} from 'react'
 import { ThemeContext } from '../contexts/Theme'
+import Extravaganza from '../components/Extravaganza'
 
 
 function App() {
@@ -33,6 +34,8 @@ useEffect(() => {
         <Route path={'/experience'} element={<Experience/>}/>
         <Route path={'/gifs'} element={<Gifs />} />
         <Route path={'/gigtastic'} element={<Swipper />} />
+        <Route path={'/extravaganza'} element={<Extravaganza />} />
+
         <Route path={'/nctimes'} element={<NCTimes />} />
         <Route path={'/hobbies'} element={<Hobbies/>}/>#
         <Route path={'/hippo-cat-on-sol'} element={<Hippo/>}/>

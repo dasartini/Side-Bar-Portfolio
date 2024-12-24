@@ -84,10 +84,11 @@ function List() {
                     {list && (
                         <div className="listContainer">
                         <ul className="list">
-                            <Link className="Link" to={'/nctimes'}><li>NC TIMES</li></Link>
+                        <Link className="Link" to={'/extravaganza'}><li><img className="iconFire" src={hot} />EXTRAVAGANZA<img className="icons" src={hot} /></li></Link>
                             <Link className="Link" to={'/gigtastic'}><li><img className="iconFire" src={hot} />GIGS TINDER<img className="icons" src={hot} /></li></Link>
-                            <Link className="Link" to={'/gifs'}>  <li>GIFS FINDER</li></Link>
                             <Link className="Link" to={'/hippo-cat-on-sol'}>  <li>HIPPO CAT</li></Link>
+                            <Link className="Link" to={'/nctimes'}><li>NC TIMES</li></Link>
+                            <Link className="Link" to={'/gifs'}>  <li>GIFS FINDER</li></Link>
 
                         </ul>
                         </div>

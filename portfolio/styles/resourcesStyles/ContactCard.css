@@ -146,6 +146,9 @@ p {
 }
 
 .skills {
+    -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
     background-color: #1F1A36;
     text-align: left;
     padding: 15px;

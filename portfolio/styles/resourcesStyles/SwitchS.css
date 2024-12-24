@@ -1,4 +1,7 @@
 .switch {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
    --switch_width: 2em;
    --switch_height: 1em;
    --thumb_color: #e8e8e8;

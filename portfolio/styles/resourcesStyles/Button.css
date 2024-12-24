@@ -10,6 +10,9 @@
 }
 
 .button {
+    -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 margin: auto;
 margin-bottom: 20px;
 width: 150px;

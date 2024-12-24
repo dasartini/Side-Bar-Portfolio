@@ -4,6 +4,9 @@
   }
   
   .skillsContainer {
+    -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
     margin-top: 2rem;
         display: flex;
     flex-direction: column;
